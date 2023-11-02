@@ -1,0 +1,35 @@
+{
+  "name": "@monorepo-lens/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poalrom/monorepo-lens.git"
+  },
+  "scripts": {
+    "prepare": "pnpm -r build",
+    "watch": "pnpm -r --parallel --stream watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poalrom/monorepo-lens/issues"
+  },
+  "homepage": "https://github.com/poalrom/monorepo-lens#readme",
+  "workspaces": [
+    "packages/core/*",
+    "packages/collectors/*",
+    "packages/lenses/*",
+    "packages/plugins/*",
+    "packages/reporters/*"
+  ],
+  "devDependencies": {
+    "@monorepo-lens/cli": "workspace:*",
+    "@monorepo-lens/pnpm-collector": "workspace:*",
+    "@monorepo-lens/regress-cost-lens": "workspace:*",
+    "@monorepo-lens/json-reporter": "workspace:*",
+    "@monorepo-lens/interactive-reporter": "workspace:*"
+  }
+}

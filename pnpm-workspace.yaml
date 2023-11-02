@@ -1,0 +1,6 @@
+packages:
+  - "packages/core/*"
+  - "packages/collectors/*"
+  - "packages/lenses/*"
+  - "packages/plugins/*"
+  - "packages/reporters/*"

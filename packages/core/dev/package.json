@@ -1,0 +1,33 @@
+{
+  "name": "@monorepo-lens/dev",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "./.eslintrc.json",
+    "./.prettierrc.js",
+    "./jest.config.js"
+  ],
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.3",
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint": "^8.22.0",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}

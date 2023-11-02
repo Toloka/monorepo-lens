@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../dist/monorepo-lens.js').main(process.cwd());

@@ -1,0 +1,7 @@
+{
+    "extends": "@monorepo-lens/dev/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist"
+    },
+    "include": ["vite.config.ts", "interactiveReporter.ts"]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo-lens/schemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/schemas.js",
+  "types": "./dist/schemas.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch --preserveWatchOutput",
+    "lint": "eslint src",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@monorepo-lens/dev": "workspace:*",
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

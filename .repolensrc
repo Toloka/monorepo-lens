@@ -1,0 +1,15 @@
+{
+    "collectors": {
+        "@monorepo-lens/pnpm-collector": {}
+    },
+    "lenses": {
+        "@monorepo-lens/regress-cost-lens": {
+            "since": "2 months ago"
+        }
+    },
+    "reporters": {
+        "@monorepo-lens/interactive-reporter": {
+            "path": "./reports"
+        }
+    }
+}
